@@ -3,7 +3,7 @@ from .models import Team
 from cars.models import Car
 
 # Create your views here.
-
+# home section
 def home(request):
     teams = Team.objects.all()
     featured_cars = Car.objects.order_by('-created_date').filter(is_featured=True)
