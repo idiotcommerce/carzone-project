@@ -26,7 +26,8 @@ def home(request):
 
 
     }
-    return render(request, 'pages/home.html', data)
+    #return render(request, 'pages/home.html', data)
+    return render(request, 'pages/index.html', data)
 
 def about(request):
     teams = Team.objects.all()
