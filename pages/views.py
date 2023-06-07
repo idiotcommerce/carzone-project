@@ -39,4 +39,12 @@ def services(request):
     return render(request, 'pages/services.html')
 
 def contact(request):
+    if request.method == 'POST':
+        name = request.POST['name']
+        email = request.POST['email']
+        subject = request.POST['subject']
+        phone = request.POST['phone']
+        message = request.POST['message']
+
+
     return render(request, 'pages/contact.html')
