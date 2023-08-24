@@ -7,26 +7,26 @@ allow the user to come to his site and browse through all of his latest cars and
 search and filter the cars by model or price, and make some inquiries about his cars that are out for the sale.
 
 
-# step 1: install django 
+## step 1: install django 
 
 
 sudo pip install django
 
 
 
-# step2: check the version 
+## step2: check the version 
 
 
 django-admin --version
 
-# step3: if any packages need
+## step3: if any packages need
 
 
 sudo apt-get update
 sudo apt-get install python-django
 
 
-# step 4:  runserver 
+## step 4:  runserver 
 
 
 manage.py is a file, each time we will run server through this file
@@ -36,7 +36,7 @@ type below command in terminal to run serever
 
 
 
-# step5: commit migrations
+## step5: commit migrations
 
 
 "  python manage.py makemigrations  "
@@ -47,7 +47,7 @@ type below command in terminal to run serever
 
 
 
-# local server url
+## local server url
 
 http://127.0.0.1:8000 or
 127.0.0.1:8000
